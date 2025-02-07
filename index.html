@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双人爱心轨迹</title>
+    <style>
+        /* 步骤一的CSS /
+        canvas {
+            display: block;
+            margin: 0 auto;
+            touch-action: none;
+        }
+        body {
+            margin: 0;
+            background: #000;
+            overflow: hidden;
+        }
+
+        / 步骤四的CSS动画 */
+        .heartbeat {
+            animation: heartbeat 0.5s;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- 步骤三、四的JS代码统一放在game.js -->
+    <script src="game.js"></script>
+</body>
+</html>
